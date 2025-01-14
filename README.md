@@ -18,4 +18,4 @@ docker push ghcr.io/padyalas/http-hello-world:latest
 docker pull ghcr.io/padyalas/http-hello-world:latest
 
 ##### Run the Docker Image
-docker run -e PORT=1234 -p 1234:1234 http-hello-world
+docker run -e PORT=1234 -p 1234:1234 ghcr.io/padyalas/http-hello-world:latest
